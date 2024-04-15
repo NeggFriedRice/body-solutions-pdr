@@ -13,7 +13,6 @@ function App() {
     <Heading />
     <Navbar />
     <HeroImage />
-      <p>Hello</p>
     <HeroBanner />
     <Map />
     </div>

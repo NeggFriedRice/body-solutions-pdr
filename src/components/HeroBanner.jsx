@@ -15,7 +15,7 @@ export default function HeroBanner() {
         </div>
         <div className="mx-2 px-4 my-2 w-[90vw] bg-blue-700 rounded-xl">
             <h1 className="text-[1.5rem] py-2">Why choose us?</h1>
-            <div className="h-[1px] w-[80%] bg-slate-500"></div>
+            <div className="h-[1px] w-[80%] bg-slate-200"></div>
             <div className="flex place-items-center mt-4">
                 <img src="/icons/calendar.png" className="h-[35px] ml-2 mr-4" />
                 <p className="text-[1rem]">7 days a week availability</p>
@@ -36,7 +36,7 @@ export default function HeroBanner() {
                 <img src="/icons/rocket.svg" className="h-[35px] ml-2 mr-4" />
                 <p className="text-[1rem]">40+ years experience in panel beating</p>
             </div>
-            <p className="my-2"><span className="text-setOrange">*</span> In most cases, for minor fixes</p>
+            <p className="my-2 text-[0.75rem]"><span className="text-setOrange">*</span> In most cases, for minor fixes</p>
         </div>
     </div>
   )

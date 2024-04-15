@@ -12,8 +12,28 @@
   src: local('SwanseaBold'),url(./fonts/SwanseaBold-D0ox.ttf) format('truetype');
 }
 
+@font-face {
+  font-family: 'SatoshiBlack';
+  src: local('SatoshiBlack'),url(./fonts/Satoshi-Black.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'SatoshiBold';
+  src: local('SatoshiBold'),url(./fonts/Satoshi-Bold.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'SatoshiMedium';
+  src: local('SatoshiMedium'),url(./fonts/Satoshi-Medium.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'SatoshiRegular';
+  src: local('SatoshiRegular'),url(./fonts/Satoshi-Regular.otf) format('opentype');
+}
+
 :root {
-  font-family: Swansea;
+  font-family: SatoshiRegular;
   line-height: 1.5;
   font-weight: 400;
  
