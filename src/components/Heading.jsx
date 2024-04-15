@@ -1,5 +1,3 @@
-import React from 'react'
-
 export default function Heading() {
   return (
     <div className="py-4 flex justify-center">

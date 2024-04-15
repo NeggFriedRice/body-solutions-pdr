@@ -1,6 +1,6 @@
 export default function Navbar() {
 
-    const navbarStyle = "bg-setOrange hover:bg-setOrangeLight transition-all duration-300 delay-100 px-2 lg:px-8 rounded-full"
+    const navbarStyle = "bg-setOrange hover:bg-setOrangeLight transition-all duration-300 delay-100 px-2 lg:px-8 rounded-full shadow-xl"
 
     return (
     <div className="flex justify-center">

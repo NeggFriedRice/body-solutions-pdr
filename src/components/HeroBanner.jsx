@@ -1,5 +1,3 @@
-import React from 'react'
-
 export default function HeroBanner() {
 
     return (
@@ -7,9 +5,18 @@ export default function HeroBanner() {
         <div className="mx-2 px-4 my-2 w-[90vw] lg:w-[500px] bg-amber-50 text-neutral-500 rounded-xl">
             <h1 className="text-[1.5rem] py-2">Three easy steps</h1>
             <div className="h-[1px] w-[80%] bg-slate-200"></div>
-            <p className="text-[1.25rem] max-xs:text-[1rem] my-6"><span className="bg-setOrange px-4 max-xs:px-3.5 py-1.5 rounded-[50%] ml-2 mr-4 text-white">1</span>Send us photos for a quote</p>
-            <p className="text-[1.25rem] max-xs:text-[1rem] my-6"><span className="bg-setOrange px-4 max-xs:px-3 py-1.5 rounded-[50%] ml-2 mr-2 text-white">2</span> Find a time that suits you</p>
-            <p className="text-[1.25rem] max-xs:text-[1rem]"><span className="bg-setOrange px-4 max-xs:px-3 py-1.5 rounded-[50%] ml-2 mr-2 text-white">3</span> We come to you!</p>
+            <p className="text-[1.25rem] max-xs:text-[1rem] my-6 flex">
+                <span className="bg-setOrange text-white h-[30px] w-[30px] text-center items-center justify-center flex rounded-[50%] ml-2 mr-2">1</span>
+                Send us photos for a quote
+            </p>
+            <p className="text-[1.25rem] max-xs:text-[1rem] my-6 flex">
+                <span className="bg-setOrange text-white h-[30px] w-[30px] text-center items-center justify-center flex rounded-[50%] ml-2 mr-2">2</span>
+                Find a time that suits you
+            </p>
+            <p className="text-[1.25rem] max-xs:text-[1rem] flex">
+                <span className="bg-setOrange text-white h-[30px] w-[30px] text-center items-center justify-center flex rounded-[50%] ml-2 mr-2">3</span>
+                We come to you!
+            </p>
             <div className="flex justify-center">
                 <a href="#contact">
                 <button className="mt-4 lg:mt-8 mb-4 bg-setOrange hover:bg-setOrangeLight transition-all duration-300 delay-100 text-white text-[1.10rem] text-[SatoshiBold]">Get a quote!</button>
