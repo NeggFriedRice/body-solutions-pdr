@@ -8,7 +8,7 @@ export default function GoogleReviews() {
   return (
 
     <div className="flex w-[100%] justify-center flex-wrap">
-        <div className="mx-2 px-4 my-2 pb-6 w-[90vw] bg-amber-50 text-neutral-500 rounded-xl">
+        <div className="mx-2 px-4 my-2 pb-6 w-[90vw] lg:w-[1020px] bg-amber-50 text-neutral-500 rounded-xl">
             <h1 className="text-[1.5rem] py-2">Our reviews</h1>
             <div className="h-[1px] w-[80%] bg-slate-200"></div>
             <img src="/google-review.png" className="h-[35px] my-2"></img>

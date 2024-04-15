@@ -7,12 +7,12 @@ import HeroImage from './components/HeroImage'
 import GoogleReviews from './components/GoogleReviews'
 import Contact from './components/Contact'
 import OurServices from './components/OurServices'
+import Footer from './components/Footer'
 
 function App() {
 
   return (
     <>
-    <div className="">
       <Heading />
       <Navbar />
       <HeroImage />
@@ -21,7 +21,7 @@ function App() {
       <Map />
       <Contact />
       <OurServices />
-    </div>
+      <Footer />
     </>
   )
 }
