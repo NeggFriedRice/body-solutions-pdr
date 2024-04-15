@@ -11,7 +11,10 @@ export default function HeroBanner() {
             <div className="h-[1px] w-[80%] bg-slate-200"></div>
             <p className="text-[1rem] my-6"><span className={numberStyle}>1</span>Send us photos for a quote</p>
             <p className="text-[1rem] my-6"><span className={numberStyle}>2</span> Find a time that suits you</p>
-            <p className="text-[1rem] my-6"><span className={numberStyle}>3</span> We come to you!</p>
+            <p className="text-[1rem]"><span className={numberStyle}>3</span> We come to you!</p>
+            <div className="flex justify-center">
+                <button className="my-4 bg-setOrange text-white text-[1.10rem] text-[SatoshiBold]">Get a quote!</button>
+            </div>
         </div>
         <div className="mx-2 px-4 my-2 w-[90vw] bg-blue-700 rounded-xl">
             <h1 className="text-[1.5rem] py-2">Why choose us?</h1>

@@ -4,6 +4,7 @@ import Heading from './components/Heading'
 import HeroBanner from './components/HeroBanner'
 import Map from './components/Map'
 import HeroImage from './components/HeroImage'
+import GoogleReviews from './components/GoogleReviews'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
     <Navbar />
     <HeroImage />
     <HeroBanner />
+    <GoogleReviews />
     <Map />
     </div>
     </>
