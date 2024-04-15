@@ -5,10 +5,11 @@ export default function Navbar() {
     return (
     <div className="flex justify-center">
         <ul className="flex gap-4 font-[Swansea] text-[1rem]">
-            <li className={navbarStyle}>Our Work</li>
-            <li className={navbarStyle}>Contact Us</li>
+            <a href="#ourServices">
+                <button className={navbarStyle}>Our services</button>
+            </a>
             <a href="#contact">
-            <button className={navbarStyle}>Get a Quote</button>
+                <button className={navbarStyle}>Get a Quote</button>
             </a>
         </ul>
     </div>

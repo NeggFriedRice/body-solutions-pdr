@@ -6,6 +6,7 @@ import Map from './components/Map'
 import HeroImage from './components/HeroImage'
 import GoogleReviews from './components/GoogleReviews'
 import Contact from './components/Contact'
+import OurServices from './components/OurServices'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       <GoogleReviews />
       <Map />
       <Contact />
+      <OurServices />
     </div>
     </>
   )
