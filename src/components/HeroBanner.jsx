@@ -5,8 +5,8 @@ export default function HeroBanner() {
     const numberStyle = "bg-setOrange px-3.5 py-1.5 rounded-[50%] ml-2 mr-4 text-white"
 
     return (
-    <div className="bg-slate-900 flex w-[80vw] justify-center">
-        <div className="mx-2 px-4 bg-white text-neutral-500 rounded-xl">
+    <div className="flex w-[80vw] justify-center">
+        <div className="mx-2 px-4 bg-amber-50 text-neutral-500 rounded-xl">
             <h1 className="text-[2.5rem]">Three easy steps</h1>
             <div className="h-[1px] w-[80%] bg-slate-200"></div>
             <p className="text-[1.5rem] my-10"><span className={numberStyle}>1</span>Send us photos for a quote</p>
