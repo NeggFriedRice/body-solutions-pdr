@@ -1,13 +1,16 @@
 import React from 'react'
 
 export default function Navbar() {
-  return (
+
+    const navbarStyle = "bg-setOrange px-6 rounded-full"
+
+    return (
     <div className="w-[80vw] flex justify-center">
-        <ul className="flex gap-4">
-            <li>Our Work</li>
-            <li>Contact Us</li>
-            <li>Get a Quote</li>
+        <ul className="flex gap-16 font-[Swansea] text-[1.5rem]">
+            <li className={navbarStyle}>Our Work</li>
+            <li className={navbarStyle}>Contact Us</li>
+            <li className={navbarStyle}>Get a Quote</li>
         </ul>
     </div>
-  )
+    )
 }
