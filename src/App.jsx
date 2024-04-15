@@ -3,15 +3,16 @@ import Navbar from './components/Navbar'
 import Heading from './components/Heading'
 import HeroBanner from './components/HeroBanner'
 import Map from './components/Map'
+import HeroImage from './components/HeroImage'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-    <div className="w-[80vw]">
+    <div className="w-[90vw]">
     <Heading />
     <Navbar />
+    <HeroImage />
       <p>Hello</p>
     <HeroBanner />
     <Map />
