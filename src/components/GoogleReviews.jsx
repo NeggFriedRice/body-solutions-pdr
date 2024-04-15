@@ -21,6 +21,10 @@ export default function GoogleReviews() {
               }}
             navigation={true}
             modules={[Autoplay, Pagination, Navigation]}
+            style={{
+                "--swiper-pagination-color": "#FF9800",
+                "--swiper-navigation-color": "#FF9800",
+              }}
             >
             <SwiperSlide>
                 <div>

@@ -5,18 +5,20 @@ import HeroBanner from './components/HeroBanner'
 import Map from './components/Map'
 import HeroImage from './components/HeroImage'
 import GoogleReviews from './components/GoogleReviews'
+import Contact from './components/Contact'
 
 function App() {
 
   return (
     <>
-    <div className="w-[90vw]">
-    <Heading />
-    <Navbar />
-    <HeroImage />
-    <HeroBanner />
-    <GoogleReviews />
-    <Map />
+    <div className="">
+      <Heading />
+      <Navbar />
+      <HeroImage />
+      <HeroBanner />
+      <GoogleReviews />
+      <Map />
+      <Contact />
     </div>
     </>
   )
