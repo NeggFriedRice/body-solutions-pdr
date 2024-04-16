@@ -1,8 +1,13 @@
 import Quote from "./Quote";
+import { motion } from 'framer-motion'
 
 export default function Contact() {
   return (
-    <div className="bg-setBlue" id="contact">
+    <motion.div 
+    initial={{ opacity: 0, y: 75 }}
+    animate={{ opacity: 1, y: 0 }}
+    transition={{ delay: 2, duration: 0.5, ease: 'eastOut', type: 'spring', stiffness: 150}}
+    className="bg-setBlue" id="contact">
         <div className="flex justify-center py-8">
             <div className="lg:w-[600px]">
                 <div className="text-center">
@@ -24,6 +29,6 @@ export default function Contact() {
                 </div>
             </div>
         </div>
-    </div>
+    </motion.div>
   )
 }
