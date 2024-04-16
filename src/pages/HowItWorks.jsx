@@ -9,7 +9,8 @@ export default function HowItWorks() {
     <motion.div 
     initial={{ opacity: 0, y: 75 }}
     animate={{ opacity: 1, y: 0 }}
-    transition={{ delay: 1, duration: 0.5, ease: 'eastOut', type: 'spring', stiffness: 150}}
+    transition={{ duration: 0.5, ease: 'easeOut', type: 'spring', stiffness: 150}}
+    exit={{ opacity: 0, y: 75, transition: { type: 'tween' } }}
     id="ourServices" className="w-[100vw] px-2 flex justify-center">
         <div className="w-[90vw] lg:w-[1000px] mt-2 mb-8">
             <h1 className="text-[1.5rem] lg:text-[2rem] py-2">How Paintless Dent Repair works</h1>

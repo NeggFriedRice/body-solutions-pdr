@@ -15,8 +15,8 @@ function App() {
       <Heading />
       <Navbar />
       <ScrollToHashElement />
-      <AnimatePresence location={location} key={location.key}>
-        <Routes>
+      <AnimatePresence mode="wait">
+        <Routes location={location} key={location.pathname} >
           <Route path="/" element={<Home />} />
           <Route path="/howitworks" element={<HowItWorks />} />
         </Routes>
