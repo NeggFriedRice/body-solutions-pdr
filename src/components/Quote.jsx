@@ -3,7 +3,7 @@ import React, { useRef } from 'react';
 export default function Quote() {
 
     const formRow = "flex justify-center"
-    const labels = "max-xs:w-[85vw] lg:w-[100%] bg-white px-2 border-[1px] rounded-md border-neutral-300 py-2 my-2"
+    const labels = "max-xs:w-[85vw] xs:w-[80vw] lg:w-[100%] bg-white px-2 border-[1px] rounded-md border-neutral-300 py-2 my-2"
 
     return (
         <div className="flex justify-center py-4">

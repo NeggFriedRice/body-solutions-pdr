@@ -1,6 +1,6 @@
 export default function HeroImage() {
 
-    const imageStyles = "h-[100px] lg:h-[150px] max-xs:h-[80px] hover:scale-105 transition-all duration-300 delay-100 my-1 rounded-lg"
+    const imageStyles = "xs:h-[110px] lg:h-[180px] max-xs:h-[80px] hover:scale-105 transition-all duration-300 delay-100 my-1 rounded-lg"
 
     return (
         <div className="flex justify-center">

@@ -7,7 +7,7 @@ export default function Navbar() {
     return (
         <>
     <div className="flex justify-center bg-setBlue sticky top-0">
-        <ul className="flex gap-1 lg:gap-4 font-[SatoshiMedium] text-[0.75rem] lg:text-[1.25rem]">
+        <ul className="flex gap-1 lg:gap-4 font-[SatoshiMedium] max-xs:text-[0.75rem] xs:text-[1.25rem] lg:text-[1.25rem]">
             <Link to="/">
                 <button className={navbarStyle}>Home</button>
             </Link>
@@ -22,6 +22,9 @@ export default function Navbar() {
             </Link>
         </ul>
     </div>
-</>
+    <div className="flex justify-center mx-4">
+        <p className="max-xs:text-[1.25rem] xs:text-[1.5rem] lg:text-[2rem] text-center">Melbourne's leading mobile paintless dent repair specialist</p>
+    </div>
+    </>
     )
 }

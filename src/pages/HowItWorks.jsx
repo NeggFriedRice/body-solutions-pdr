@@ -9,9 +9,9 @@ export default function HowItWorks() {
     <div className="w-[90vw] lg:w-[1000px] mt-2 mb-8">
         <h1 className="text-[1.5rem] lg:text-[2rem] py-2">How Paintless Dent Repair works</h1>
         <div className="h-[1px] w-[80%] bg-slate-200"></div>
-        <p className="py-2 lg:text-[1.25rem]">Paintless Dent repair (PDR) is a technique used to remove dents and dings from the body of a vehicle without the need for traditional bodywork methods like filling, sanding, and painting; which can be quite costly (time and money-wise) depending on the size and location of the repair.</p>
-        <p className="py-2 lg:text-[1.25rem]">We use a range of tools including dent removal rods, knockdown tools and light reflector boards to assess and massage the metal back into its original shape from behind the dent.</p>
-        <p className="py-2 lg:text-[1.25rem]">For some dents that may not be easily accessible from behind, we also make use of a glue pulling tool which involves glueing a tab to the dent and gently applying force to carefully pull the dent until it pops back into place.</p>
+        <p className="py-2 lg:text-[1.25rem]">Our mobile service removes minor dents from the bodywork of your car (where your paintwork is not damaged) using specialist tools to 'turn back time'. On completion of repairs, it will be as if the dents never happened, even a body shop cannot do this.</p>
+        <p className="py-2 lg:text-[1.25rem]">We achieve this by massaging the dents out of the metalwork saving your paintwork and the inconvenience of an insurance claim or a potentially expensive and time consuming trip to a bodyshop. We cover the metropolitcan Melbourne area including north east, south east and eastern suburbs.</p>
+        <p className="py-2 lg:text-[1.25rem]">38 years experience as a trade qualified body technician and investment in the latest dent repair technology keeps us on the cutting edge, meaning we are able to repair a wider range of damage to materials such as aluminium which is now widely used in newer model cars and no longer limited to the European manufacturers.</p>
         <div className="flex gap-3 flex-wrap justify-center">
             <img src="/howitworks/howitworks2.jpg" className={imageStyles}/>
             <img src="/howitworks/howitworks1.jpg" className={imageStyles}/>
