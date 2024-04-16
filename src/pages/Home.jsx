@@ -4,6 +4,7 @@ import HeroImage from '../components/HeroImage'
 import GoogleReviews from '../components/GoogleReviews'
 import Contact from '../components/Contact'
 import OurServices from '../components/OurServices'
+import Quote from '../components/Quote'
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <GoogleReviews />
         <Map />
         <Contact />
+        <Quote />
     </>
   )
 }
