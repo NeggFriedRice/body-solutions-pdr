@@ -32,7 +32,7 @@ export default function HeroBanner() {
             </div>
             <div className="flex place-items-center mt-3">
                 <img src="/icons/clock.svg" className="h-[35px] ml-2 mr-4" />
-                <p className="text-[1.25rem] max-xs:text-[1rem]">Same day turnaround<span className="text-setOrange">*</span></p>
+                <p className="text-[1.25rem] max-xs:text-[1rem]">Same day turnaround<span className="text-blue-700">*</span></p>
             </div>
             <div className="flex place-items-center  mt-3">
                 <img src="/icons/truck.svg" className="h-[35px] ml-2 mr-4" />
@@ -46,7 +46,7 @@ export default function HeroBanner() {
                 <img src="/icons/rocket.svg" className="h-[35px] ml-2 mr-4" />
                 <p className="text-[1.25rem] max-xs:text-[1rem]">10+ years experience in paintless dent removal</p>
             </div>
-            <p className="my-2 text-[0.75rem]"><span className="text-setOrange">*</span> In most cases, for minor fixes</p>
+            <p className="my-2 text-[0.75rem]"><span className="text-blue-700">*</span> In most cases, for minor fixes</p>
         </div>
     </div>
   )
