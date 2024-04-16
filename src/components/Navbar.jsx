@@ -22,7 +22,7 @@ export default function Navbar() {
             </Link>
         </ul>
     </div>
-    <div className="flex justify-center mx-4">
+    <div className="flex justify-center mx-4 bg-setGreen py-1">
         <p className="max-xs:text-[1.25rem] xs:text-[1.5rem] lg:text-[2rem] text-center">Melbourne's leading mobile paintless dent repair specialist</p>
     </div>
     </>
