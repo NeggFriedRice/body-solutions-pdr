@@ -35,7 +35,7 @@ export default function Quote() {
                             </div>
                         </div>
                         <div className={formRow}>
-                        <button type="submit" className="my-4 px-4 lg:mt-8 bg-setOrange hover:bg-setOrangeLight transition-all duration-300 delay-100 text-white text-[1.10rem] text-[SatoshiBold]">Get my quote!</button>
+                        <button type="submit" className="my-4 px-4 lg:mt-8 bg-setGreen hover:bg-setGreenLight transition-all duration-300 delay-100 text-white text-[1.10rem] text-[SatoshiBold]">Get my quote!</button>
                         </div>
                     </div>
                 </div>

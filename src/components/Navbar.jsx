@@ -2,11 +2,11 @@ import { Link } from 'react-router-dom'
 
 export default function Navbar() {
 
-    const navbarStyle = "bg-setOrange hover:bg-setOrangeLight transition-all duration-500 delay-100 px-2 lg:px-8 py-1 my-1"
+    const navbarStyle = "bg-setBlue hover:bg-setBlueLight transition-all duration-500 delay-100 px-2 lg:px-8 py-1 my-1"
 
     return (
         <>
-    <div className="flex justify-center bg-setOrange sticky top-0">
+    <div className="flex justify-center bg-setBlue sticky top-0">
         <ul className="flex gap-1 lg:gap-4 font-[SatoshiMedium] text-[0.75rem] lg:text-[1.25rem]">
             <Link to="/">
                 <button className={navbarStyle}>Home</button>

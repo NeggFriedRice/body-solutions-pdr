@@ -2,7 +2,7 @@ import Quote from "./Quote";
 
 export default function Contact() {
   return (
-    <div className="bg-setOrange" id="contact">
+    <div className="bg-setBlue" id="contact">
         <div className="flex justify-center py-8">
             <div className="lg:w-[600px]">
                 <div className="text-center">
