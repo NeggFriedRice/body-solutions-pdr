@@ -6,7 +6,7 @@ export default function Quote() {
         console.log("button clicked")
         event.preventDefault();
     
-        fetch('https://formsubmit.co/0b7a0fcefdab9feedbaddd6e161f8093', {
+        fetch('https://formsubmit.co/tomloo222@gmail.com', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
