@@ -1,8 +1,8 @@
 export default function Footer() {
   return (
-    <div className="bg-setOrange flex justify-center">
+    <div className="bg-setBlack flex justify-center">
         <div>
-            <p>Body Solutions - Paintless Dent Removal</p>
+            <p>Body Solutions - Paintless Dent Repair</p>
         </div>
     </div>
   )

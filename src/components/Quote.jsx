@@ -1,59 +1,44 @@
 import React, { useRef } from 'react';
-import axios from 'axios'
 
 export default function Quote() {
 
-    // const submitHandler = (event) => {
-    //     console.log("button clicked")
-    //     event.preventDefault();
-        
-    //     console.log(event.target.elements.attachment.files[0])
-
-    //     const formData = JSON.stringify(Object.fromEntries(new FormData(event.target)))
-    //     const file = event.target.elements.attachment.files[0]
-
-    //     if (file) {
-    //         formData.append('image', file)
-    //     }
-    
-    //     const submission = axios.post('https://formsubmit.co/0b7a0fcefdab9feedbaddd6e161f8093', formData, {
-    //         headers: {
-    //             'Content-Type': 'multipart/form-data'
-    //         }
-    //     })
-
-    //     console.log(submission)
-    //   };
-
-    //   return (
-    //     <form encType="multipart/form-data" onSubmit={submitHandler}>
-    //         <input type="email" name="email" placeholder="Your email" />
-    //         <textarea name="message" placeholder="Details of your problem"></textarea>
-    //         <input type="file" name="attachment" accept="image/png, image/jpeg" />
-    //         <button type="submit">Send Test</button>
-    //     </form>
-    //   );
+    const formRow = "flex justify-center"
+    const labels = "xs:w-[85vw] lg:w-[100%] bg-white px-2 border-[1px] rounded-md border-neutral-300 py-2 my-2"
 
     return (
-        <div className="container">
-          <h1>FormSubmit Demo</h1>
-          <form target="_blank" action="https://formsubmit.co/tomloo222@gmail.com" method="POST" enctype="multipart/form-data">
-            <div className="form-group">
-              <div className="form-row">
-                <div className="col">
-                  <input type="text" name="name" className="form-control" placeholder="Full Name" required />
+        <div className="flex justify-center py-4">
+            <div className="bg-amber-50 text-neutral-500 p-4 rounded-xl  w-[90vw]">
+            <h1 className="text-[1.5rem] font-[SatoshiBlack]">Get a quick and easy online quote</h1>
+            <p>We generally reply within the same day!</p>
+            <form target="_blank" action="https://formsubmit.co/tomloo222@gmail.com" method="POST" encType="multipart/form-data">
+                <div className="flex justify-center">
+                    <div className="xs:w-[90vw] lg:w-[500px]">
+                        <div className={formRow}>
+                            <input type="text" name="name" className={labels} placeholder="Name" required />
+                        </div>
+                        <div className={formRow}>
+                            <input type="email" name="email" className={labels} placeholder="Email Address" required />
+                        </div>
+                        <div className={formRow}>
+                            <input type="mobile" name="mobile" className={labels} placeholder="Mobile number" />
+                        </div>
+                        <div className={formRow}>
+                            <input type="suburb" name="suburb" className={labels} placeholder="Suburb" />
+                        </div>
+                        <div className={formRow}>
+                        <textarea placeholder="Your Message" className={labels} name="message" rows="5" required></textarea>
+                        </div>
+                        <div className="xs:px-4 lg:px-[0px]">
+                            <p className="max-xs:mx-4">Attach a photo:</p>
+                            <input type="file" name="attachment" accept="image/png, image/jpeg" />
+                        </div>
+                        <div className={formRow}>
+                        <button type="submit" className="my-4 px-4 lg:mt-8 bg-setOrange hover:bg-setOrangeLight transition-all duration-300 delay-100 text-white text-[1.10rem] text-[SatoshiBold]">Get my quote!</button>
+                        </div>
+                    </div>
                 </div>
-                <div className="col">
-                  <input type="email" name="email" className="form-control" placeholder="Email Address" required />
-                </div>
-              </div>
+            </form>
             </div>
-            <div className="form-group">
-              <textarea placeholder="Your Message" className="form-control" name="message" rows="10" required></textarea>
-            </div>
-            <input type="file" name="attachment" accept="image/png, image/jpeg" />
-            <button type="submit" className="btn btn-lg btn-dark btn-block">Submit Form</button>
-          </form>
         </div>
       )
     }

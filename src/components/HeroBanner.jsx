@@ -23,7 +23,7 @@ export default function HeroBanner() {
                 </a>
             </div>
         </div>
-        <div className="mx-2 px-4 my-2 w-[90vw] lg:w-[500px] bg-setBlue rounded-xl">
+        <div className="mx-2 px-4 my-2 w-[90vw] lg:w-[500px] bg-setOrange rounded-xl">
             <h1 className="text-[1.5rem] py-2">Why choose us?</h1>
             <div className="h-[1px] w-[80%] bg-slate-200"></div>
             <div className="flex place-items-center mt-4">
