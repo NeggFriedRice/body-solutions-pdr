@@ -10,7 +10,7 @@ export default function Quote() {
             <div className="bg-amber-50 text-neutral-500 p-4 rounded-xl w-[90vw] shadow-xl">
             <h1 className="text-[1.5rem] font-[SatoshiBlack]">Get a quick and easy online quote</h1>
             <p>We generally reply within the same day!</p>
-            <form target="_blank" action="https://formsubmit.co/tomloo222@gmail.com" method="POST" encType="multipart/form-data">
+            <form target="_blank" action="https://formsubmit.co/bodysolutionspdr@gmail.com" method="POST" encType="multipart/form-data">
                 <div className="flex justify-center">
                     <div className="xs:w-[90vw] lg:w-[500px]">
                         <div className={formRow}>
