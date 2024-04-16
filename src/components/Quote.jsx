@@ -28,10 +28,10 @@ export default function Quote() {
                         <div className={formRow}>
                         <textarea placeholder="Your Message" className={labels} name="message" rows="5" required></textarea>
                         </div>
-                        <div>
-                            <p className="max-xs:mx-4">Attach a photo:</p>
-                            <div className="max-xs:mx-4">
-                               <input type="file" name="attachment" accept="image/png, image/jpeg"/>
+                        <div className="w-[250px] max-xs:mx-2">
+                            <p>Attach a photo:</p>
+                            <div>
+                               <input type="file" name="attachment" accept="image/png, image/jpeg" className="w-[250px]"/>
                             </div>
                         </div>
                         <div className={formRow}>
