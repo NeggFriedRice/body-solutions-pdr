@@ -3,7 +3,7 @@ import React, { useRef } from 'react';
 export default function Quote() {
 
     const formRow = "flex justify-center"
-    const labels = "xs:w-[85vw] lg:w-[100%] bg-white px-2 border-[1px] rounded-md border-neutral-300 py-2 my-2"
+    const labels = "max-xs:w-[85vw] lg:w-[100%] bg-white px-2 border-[1px] rounded-md border-neutral-300 py-2 my-2"
 
     return (
         <div className="flex justify-center py-4">
@@ -28,9 +28,11 @@ export default function Quote() {
                         <div className={formRow}>
                         <textarea placeholder="Your Message" className={labels} name="message" rows="5" required></textarea>
                         </div>
-                        <div className="xs:px-4 lg:px-[0px]">
+                        <div>
                             <p className="max-xs:mx-4">Attach a photo:</p>
-                            <input type="file" name="attachment" accept="image/png, image/jpeg" />
+                            <div className="max-xs:mx-4">
+                               <input type="file" name="attachment" accept="image/png, image/jpeg"/>
+                            </div>
                         </div>
                         <div className={formRow}>
                         <button type="submit" className="my-4 px-4 lg:mt-8 bg-setOrange hover:bg-setOrangeLight transition-all duration-300 delay-100 text-white text-[1.10rem] text-[SatoshiBold]">Get my quote!</button>
