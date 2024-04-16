@@ -1,12 +1,10 @@
 import Navbar from './components/Navbar'
 import Heading from './components/Heading'
-import HeroBanner from './components/HeroBanner'
-import Map from './components/Map'
-import HeroImage from './components/HeroImage'
-import GoogleReviews from './components/GoogleReviews'
-import Contact from './components/Contact'
-import OurServices from './components/OurServices'
+import Home from "./pages/Home"
+import HowItWorks from './pages/HowItWorks'
+import ScrollToHashElement from './utils/ScrollToHashElement'
 import Footer from './components/Footer'
+import { Routes, Route } from 'react-router-dom'
 
 function App() {
 
@@ -14,12 +12,11 @@ function App() {
     <>
       <Heading />
       <Navbar />
-      <HeroImage />
-      <HeroBanner />
-      <GoogleReviews />
-      <Map />
-      <Contact />
-      <OurServices />
+      <ScrollToHashElement />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/howitworks" element={<HowItWorks />} />
+      </Routes>
       <Footer />
     </>
   )

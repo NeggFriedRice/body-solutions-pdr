@@ -23,12 +23,12 @@ export default function HeroBanner() {
                 </a>
             </div>
         </div>
-        <div className="mx-2 px-4 my-2 w-[90vw] lg:w-[500px] bg-blue-700 rounded-xl">
+        <div className="mx-2 px-4 my-2 w-[90vw] lg:w-[500px] bg-setBlue rounded-xl">
             <h1 className="text-[1.5rem] py-2">Why choose us?</h1>
             <div className="h-[1px] w-[80%] bg-slate-200"></div>
             <div className="flex place-items-center mt-4">
                 <img src="/icons/calendar.png" className="h-[35px] ml-2 mr-4" />
-                <p className="text-[1.25rem]">7 days a week availability</p>
+                <p className="text-[1.25rem]">Available 6 days a week</p>
             </div>
             <div className="flex place-items-center mt-3">
                 <img src="/icons/clock.svg" className="h-[35px] ml-2 mr-4" />
@@ -40,11 +40,11 @@ export default function HeroBanner() {
             </div>
             <div className="flex place-items-center  mt-3">
                 <img src="/icons/money.svg" className="h-[35px] ml-2 mr-4" />
-                <p className="text-[1.25rem]">Up to 80% cheaper than going to a bodyshop</p>
+                <p className="text-[1.25rem]">Save time and money over going to a traditional bodyshop</p>
             </div>
             <div className="flex place-items-center  mt-3">
                 <img src="/icons/rocket.svg" className="h-[35px] ml-2 mr-4" />
-                <p className="text-[1.25rem]">20+ years experience in paintless dent removal</p>
+                <p className="text-[1.25rem]">10+ years experience in paintless dent removal</p>
             </div>
             <p className="my-2 text-[0.75rem]"><span className="text-setOrange">*</span> In most cases, for minor fixes</p>
         </div>

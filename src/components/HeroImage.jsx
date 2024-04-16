@@ -1,13 +1,14 @@
 export default function HeroImage() {
 
-    const imageStyles = "h-[150px] lg:h-[200px] max-xs:h-[120px] hover:scale-105 transition-all duration-300 delay-100"
+    const imageStyles = "h-[100px] lg:h-[150px] max-xs:h-[80px] hover:scale-105 transition-all duration-300 delay-100 my-1 rounded-lg"
 
     return (
-    <div className="flex flex-wrap justify-center py-2">
-        <img src="/gallery/car1.png" className={imageStyles}/>
-        <img src="/gallery/bill.jpg" className={imageStyles}/>
-        <img src="/gallery/car2.png" className={imageStyles}/>
-        <img src="/gallery/car3.png" className={imageStyles}/>
-    </div>
+        <div className="flex justify-center">
+            <div className="py-2">
+                <img src="/gallery/car-1.png" className={imageStyles}/>
+                <img src="/gallery/car-2.png" className={imageStyles}/>
+                <img src="/gallery/car-3.png" className={imageStyles}/>
+            </div>
+        </div>
     )
 }

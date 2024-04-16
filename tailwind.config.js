@@ -17,6 +17,8 @@ export default {
         setOrangeLight: '#fcbe62',
         setBlack: '#242424',
         setBlackLight: '#424242',
+        setBlue: "#0e7490",
+        setBlueLight: "#0284c7"
       }
     },
   },

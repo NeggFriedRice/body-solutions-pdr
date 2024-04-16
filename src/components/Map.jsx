@@ -7,7 +7,7 @@ export default function Map() {
             <div className="flex justify-center py-2">
                 <img src="/maps-mobile.png" className="w-[90vw] lg:w-[500px] transition-all duration-300 rounded-[50px] py-2"/>
             </div>
-            <p className="lg:text-[1.25rem]">Dentfix Automotive covers the north eastern suburbs of Melbourne including Templestowe, Doncaster, Rosanna, Eaglemont, Heidelberg, Eltham, Greensborough, Bundoora, Ivanhoe and Bulleen.</p>
+            <p className="lg:text-[1.25rem]">Body Solutions covers the north eastern suburbs of Melbourne including Templestowe, Doncaster, Rosanna, Eaglemont, Heidelberg, Eltham, Greensborough, Bundoora, Ivanhoe and Bulleen.</p>
         </div>
     </div>
   )

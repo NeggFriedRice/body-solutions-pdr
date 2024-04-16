@@ -5,7 +5,7 @@ export default function Contact() {
             <div className="lg:w-[600px]">
                 <div className="text-center">
                     <p className="text-[1.5rem] lg:text-[2rem]">Don't hesitate to call us for a quote</p>
-                    <a href="tel:0417319885" className="text-[2.5rem] lg:text-[3.5rem] font-[SatoshiBlack]">0417 319 885
+                    <a href="tel:0450002826" className="text-[2.5rem] lg:text-[3.5rem] font-[SatoshiBlack]">0450 002 826
                     </a>
                 </div>
                 <div className="flex justify-center">

@@ -6,7 +6,7 @@ export default function OurServices() {
             <div className="w-[90vw] lg:w-[1000px] mt-2 mb-8">
                 <h1 className="text-[1.5rem] lg:text-[2rem] py-2">Our Services</h1>
                 <div className="h-[1px] w-[80%] bg-slate-200"></div>
-                <p className="py-2 lg:text-[1.25rem]">With 40+ years of panel beating and 20+ years of paintless dent removal we at Dentfix Automotive utilise the latest in dent removal tools to tackle any hail damage repairs you require.</p>
+                <p className="py-2 lg:text-[1.25rem]">With 40+ years of panel beating and 20+ years of paintless dent removal we at Body Solutions utilise the latest in dent removal tools to tackle any hail damage repairs you require.</p>
                 <ul className="list-disc px-4 py-4 lg:text-[1.25rem]">
                     <li>Paintless dent removal</li>
                     <li>Hail damage repair</li>
