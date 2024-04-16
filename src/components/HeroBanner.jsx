@@ -46,7 +46,7 @@ export default function HeroBanner() {
                 <img src="/icons/rocket.svg" className="h-[35px] ml-2 mr-4" />
                 <p className="text-[1.25rem] max-xs:text-[1rem]">10+ years experience in paintless dent removal</p>
             </div>
-            <p className="my-2 text-[0.75rem]"><span className="text-blue-700">*</span> In most cases, for minor fixes</p>
+            <p className="my-2 text-[0.75rem]"><span className="text-blue-700">*</span> We'll let you know if we need to come back</p>
         </div>
     </div>
   )
