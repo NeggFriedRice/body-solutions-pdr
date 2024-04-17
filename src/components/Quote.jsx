@@ -6,7 +6,7 @@ export default function Quote() {
     const labels = "max-xs:w-[85vw] xs:w-[80vw] lg:w-[100%] bg-white px-2 border-[1px] rounded-md border-neutral-300 py-2 my-2"
 
     return (
-        <div className="flex justify-center py-4">
+        <section className="flex justify-center py-4">
             <div className="bg-amber-50 text-neutral-500 p-4 rounded-xl w-[90vw] shadow-xl">
             <h1 className="text-[1.5rem] font-[SatoshiBlack]">Get a quick and easy online quote</h1>
             <p>We generally reply within the same day!</p>
@@ -41,6 +41,6 @@ export default function Quote() {
                 </div>
             </form>
             </div>
-        </div>
+        </section>
       )
     }

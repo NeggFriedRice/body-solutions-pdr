@@ -7,7 +7,7 @@ export default function Navbar() {
 
     return (
         <>
-    <motion.div
+    <motion.nav
     initial={{ opacity: 0 }}
     animate={{ opacity: 1 }}
     transition={{ duration: 1, delay: 0.5 }}
@@ -26,7 +26,7 @@ export default function Navbar() {
                 <button className={navbarStyle}>Get a Quote</button>
             </Link>
         </ul>
-    </motion.div>
+    </motion.nav>
     <motion.div 
     initial={{ opacity: 0 }}
     animate={{ opacity: 1 }}

@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 
 export default function Heading() {
   return (
-    <div className="py-4 flex justify-center">
+    <header className="py-4 flex justify-center">
       <div className="relative">
       <img src="/animated-logo.svg" className="absolute max-xs:w-[144px] w-[163px] top-[0.5px] lg:w-[480px] lg:top-[1px] lg:left-[1px]"/>
         <motion.div 
@@ -23,6 +23,6 @@ export default function Heading() {
                 </div>
         </motion.div>
         </div>
-    </div>
+    </header>
   )
 }
