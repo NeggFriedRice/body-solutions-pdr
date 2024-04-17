@@ -16,7 +16,7 @@ export default function Gallery() {
                 transition={{ duration: 0.5, ease: 'easeOut', type: 'spring', stiffness: 100}}
                 exit={{ opacity: 0, y: 75, transition: { type: 'tween' } }}>
                 <h1 className="text-[1.5rem] lg:text-[2rem] py-2">Some of our latest work</h1>
-                <div className="h-[1px] w-[80%] bg-slate-200 my-2"></div>
+                <div className="h-[1px] w-[80%] bg-slate-200"></div>
                     <div className="flex place-items-center">
                         <a href="https://www.instagram.com/bodysolutionspdr/" target="_blank">
                             <div className="flex place-items-center py-2">
