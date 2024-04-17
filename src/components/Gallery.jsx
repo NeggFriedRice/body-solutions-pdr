@@ -15,6 +15,12 @@ export default function Gallery() {
             exit={{ opacity: 0, y: 75, transition: { type: 'tween' } }}
             className="py-2">
                 <h1 className="text-[1.5rem] lg:text-[2rem] py-2">Some of our latest work</h1>
+                <a href="https://www.instagram.com/bodysolutionspdr/" target="_blank">
+                    <div className="flex place-items-center py-2">
+                            <img src="/icons/instagram.png" className="h-[48px] hover:scale-110 transition-all duration-300 delay-100"/>
+                            <p className="text-[1rem] lg:text-[1.5rem] hover:scale-105 transition-all duration-300 delay-100 px-2">Keep up to date with us on Instagram</p>
+                    </div>
+                </a>
                 <div className="h-[1px] w-[80%] bg-slate-200"></div>
                 <img key="car5" loading="lazy" src="/gallery/car5.png" className={imageStyles}/>
                 <img key="car6" loading="lazy" src="/gallery/car6.png" className={imageStyles}/>
@@ -28,6 +34,7 @@ export default function Gallery() {
                 <img key="car14" loading="lazy" src="/gallery/car14.png" className={imageStyles}/>
             </motion.div>
         </div>
+        {/* Icons by Icons8 https://icons8.com/icons/set/instagram */}
         </div>
     )   
 }
