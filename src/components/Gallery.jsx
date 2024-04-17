@@ -16,12 +16,16 @@ export default function Gallery() {
                 transition={{ duration: 0.5, ease: 'easeOut', type: 'spring', stiffness: 100}}
                 exit={{ opacity: 0, y: 75, transition: { type: 'tween' } }}>
                 <h1 className="text-[1.5rem] lg:text-[2rem] py-2">Some of our latest work</h1>
-                <a href="https://www.instagram.com/bodysolutionspdr/" target="_blank">
-                    <div className="flex place-items-center py-2">
-                            <img src="/icons/instagram.png" className="h-[48px] hover:scale-110 transition-all duration-300 delay-100"/>
-                            <p className="text-[1rem] lg:text-[1.5rem] hover:scale-105 transition-all duration-300 delay-100 px-2">Keep up to date with us on Instagram</p>
+                
+                    <div className="flex place-items-center">
+                        <a href="https://www.instagram.com/bodysolutionspdr/" target="_blank">
+                            <div className="flex place-items-center py-2">
+                                <img src="/icons/instagram.png" className="h-[48px] hover:scale-110 transition-all duration-300 delay-100"/>
+                                <p className="text-[1rem] lg:text-[1.5rem] hover:scale-105 transition-all duration-300 delay-100 px-2">Keep up to date with us on Instagram</p>
+                            </div>
+                        </a>
                     </div>
-                </a>
+
                 <div className="h-[1px] w-[80%] bg-slate-200 my-2"></div>
                 </motion.div>
                 <motion.div
@@ -29,7 +33,7 @@ export default function Gallery() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.2, duration: 0.5, ease: 'easeOut', type: 'spring', stiffness: 100}}
                 exit={{ opacity: 0, y: 75, transition: { type: 'tween' } }}>
-                <img key="car5" loading="lazy" src="/gallery/car5.png" className={imageStyles}/>
+                <img key="car5" src="/gallery/car5.png" className={imageStyles}/>
                 <img key="car6" loading="lazy" src="/gallery/car6.png" className={imageStyles}/>
                 <img key="car7" loading="lazy" src="/gallery/car7.png" className={imageStyles}/>
                 <img key="car8" loading="lazy" src="/gallery/car8.png" className={imageStyles}/>
