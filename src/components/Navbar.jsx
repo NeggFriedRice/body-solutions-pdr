@@ -12,7 +12,7 @@ export default function Navbar() {
     animate={{ opacity: 1 }}
     transition={{ duration: 1, delay: 0.5 }}
     className="flex justify-center bg-setBlue sticky top-0">
-        <ul className="flex gap-1 lg:gap-4 font-[SatoshiMedium] max-xs:text-[0.75rem] xs:text-[1.25rem] lg:text-[1.25rem]">
+        <ul className="flex justify-between w-[90vw] lg:w-[800px] lg:gap-4 font-[SatoshiMedium] max-xs:text-[0.8rem] xs:text-[1rem] md:text-[1.25rem] lg:text-[1.55rem]">
             <Link to="/">
                 <button className={navbarStyle}>Home</button>
             </Link>
