@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 
 export default function Gallery() {
 
-    const imageStyles = "max-xs:h-[85px] h-[120px] lg:h-[275px] hover:scale-105 transition-all duration-500 delay-100 rounded-[30px] py-2 m-auto"
+    const imageStyles = "max-xs:h-[95px] h-[150px] lg:h-[275px] hover:scale-105 transition-all duration-500 delay-100 rounded-[30px] max-xs:rounded-[15px] py-2 m-auto"
 
     return (
         <div className="w-[100vw]">
