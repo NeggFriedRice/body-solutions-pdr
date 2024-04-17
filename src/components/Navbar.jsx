@@ -19,9 +19,9 @@ export default function Navbar() {
             <Link to="/howitworks">
                 <button className={navbarStyle}>How PDR works</button>
             </Link>
-            <a href="#ourServices">
+            <Link to="/gallery">
                 <button className={navbarStyle}>Gallery</button>
-            </a>
+            </Link>
             <Link to="/#contact">
                 <button className={navbarStyle}>Get a Quote</button>
             </Link>
