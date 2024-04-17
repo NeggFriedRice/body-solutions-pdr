@@ -9,11 +9,12 @@ export default function Gallery() {
         <div className="w-[100vw]">
         <div className="flex justify-center">
             <motion.div
-            initial={{ opacity: 0, y: 75 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, ease: 'easeOut', type: 'spring', stiffness: 150}}
-            exit={{ opacity: 0, y: 75, transition: { type: 'tween' } }}
             className="py-2">
+                <motion.div
+                initial={{ opacity: 0, y: 75 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, ease: 'easeOut', type: 'spring', stiffness: 100}}
+                exit={{ opacity: 0, y: 75, transition: { type: 'tween' } }}>
                 <h1 className="text-[1.5rem] lg:text-[2rem] py-2">Some of our latest work</h1>
                 <a href="https://www.instagram.com/bodysolutionspdr/" target="_blank">
                     <div className="flex place-items-center py-2">
@@ -21,7 +22,13 @@ export default function Gallery() {
                             <p className="text-[1rem] lg:text-[1.5rem] hover:scale-105 transition-all duration-300 delay-100 px-2">Keep up to date with us on Instagram</p>
                     </div>
                 </a>
-                <div className="h-[1px] w-[80%] bg-slate-200"></div>
+                <div className="h-[1px] w-[80%] bg-slate-200 my-2"></div>
+                </motion.div>
+                <motion.div
+                initial={{ opacity: 0, y: 75 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.2, duration: 0.5, ease: 'easeOut', type: 'spring', stiffness: 100}}
+                exit={{ opacity: 0, y: 75, transition: { type: 'tween' } }}>
                 <img key="car5" loading="lazy" src="/gallery/car5.png" className={imageStyles}/>
                 <img key="car6" loading="lazy" src="/gallery/car6.png" className={imageStyles}/>
                 <img key="car7" loading="lazy" src="/gallery/car7.png" className={imageStyles}/>
@@ -32,6 +39,7 @@ export default function Gallery() {
                 <img key="car12" loading="lazy" src="/gallery/car12.png" className={imageStyles}/>
                 <img key="car13" loading="lazy" src="/gallery/car13.png" className={imageStyles}/>
                 <img key="car14" loading="lazy" src="/gallery/car14.png" className={imageStyles}/>
+                </motion.div>
             </motion.div>
         </div>
         {/* Icons by Icons8 https://icons8.com/icons/set/instagram */}

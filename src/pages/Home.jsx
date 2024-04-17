@@ -3,8 +3,6 @@ import Map from '../components/Map'
 import HeroImage from '../components/HeroImage'
 import GoogleReviews from '../components/GoogleReviews'
 import Contact from '../components/Contact'
-import OurServices from '../components/OurServices'
-import Quote from '../components/Quote'
 import { motion } from 'framer-motion'
 
 export default function Home() {

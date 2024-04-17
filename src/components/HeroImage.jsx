@@ -13,8 +13,8 @@ export default function HeroImage() {
                 key="images"
                 initial={initial}
                 animate={animate}
-                transition={{ delay: 1, duration: 0.5, ease: "easeOut", type: 'spring', stiffness: 150}}
-                className="py-2">
+                transition={{ delay: 0.75, duration: 0.5, ease: "easeOut", type: 'spring', stiffness: 150}}
+                className="py-2 mt-4">
                     <img key="car1" src="/gallery/car-1.png" className={imageStyles}/>
                     <img key="car2" src="/gallery/car-2.png" className={imageStyles}/>
                     <img key="car3" src="/gallery/car-3.png" className={imageStyles}/>
