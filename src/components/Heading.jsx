@@ -5,7 +5,9 @@ export default function Heading() {
   return (
     <header className="py-4 flex justify-center">
       <div className="relative">
+      <Link to="/">
       <img src="/animated-logo.svg" className="absolute max-xs:w-[144px] w-[163px] top-[0.5px] lg:w-[480px] lg:top-[1px] lg:left-[1px]"/>
+      </Link>
         <motion.div 
         initial={{ opacity: 0, }}
         animate={{ opacity: 1, }}
