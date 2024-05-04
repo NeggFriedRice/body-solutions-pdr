@@ -25,9 +25,9 @@ export default function HowItWorks() {
             <p className="py-2 text-[1.25rem] lg:text-[1.5rem]">We achieve this by massaging the dents out of the metalwork saving your paintwork and the inconvenience of an insurance claim or a potentially expensive and time consuming trip to a bodyshop. We cover the metropolitcan Melbourne area including north east, south east and eastern suburbs.</p>
             <p className="py-2 text-[1.25rem] lg:text-[1.5rem]">38 years experience as a trade qualified body technician and investment in the latest dent repair technology keeps us on the cutting edge, meaning we are able to repair a wider range of damage to materials such as aluminium which is now widely used in newer model cars and no longer limited to the European manufacturers.</p>
             <div className="flex gap-3 flex-wrap justify-center">
-                <img src="/howitworks/howitworks2.jpg" className={imageStyles}/>
-                <img src="/howitworks/howitworks1.jpg" className={imageStyles}/>
-                <img src="/howitworks/howitworks3.jpg" className={imageStyles}/>
+                <img src="/howitworks/howitworks2.jpg" alt="man using tool on a car to perform paintless dent repair" className={imageStyles}/>
+                <img src="/howitworks/howitworks1.jpg" alt="panel light shining on a car with a paintless dent repair tool" className={imageStyles}/>
+                <img src="/howitworks/howitworks3.jpg" alt="dent in car door with paintless dent repair glue blocks" className={imageStyles}/>
             </div>
             <p className="py-2 text-[1.25rem] lg:text-[1.55rem]">Paintless dent repair is a cost-effective, time-saving and environmentally-friendly alternative to traditional bodywork methods, and best of all, Body Solutions can come to you!</p>
             </motion.div>

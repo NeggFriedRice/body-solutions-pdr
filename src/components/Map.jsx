@@ -11,7 +11,7 @@ export default function Map() {
             <h1 className="text-[1.5rem] lg:text-[2rem] py-2">Our coverage</h1>
             <div className="h-[1px] w-[100%] bg-slate-200"></div>
             <div className="flex justify-center py-2">
-                <img src="/maps.png" className="xs:w-[65vw] lg:w-[700px] rounded-[50px] py-2"/>
+                <img src="/maps.png" alt="maps image with red coverage from north, north east and south east suburbs of melbourne" className="xs:w-[65vw] lg:w-[700px] rounded-[50px] py-2"/>
             </div>
             <p className="max-xs:text-[1rem] text-[1.25rem]">Body Solutions covers the metropolitcan Melbourne area including north east, south east and eastern suburbs.</p>
         </section>

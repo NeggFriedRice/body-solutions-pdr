@@ -15,9 +15,9 @@ export default function HeroImage() {
                 animate={animate}
                 transition={{ delay: 0.75, duration: 0.5, ease: "easeOut", type: 'spring', stiffness: 150}}
                 className="py-2 mt-4">
-                    <img key="car1" src="/gallery/car-1.png" className={imageStyles}/>
-                    <img key="car2" src="/gallery/car-2.png" className={imageStyles}/>
-                    <img key="car3" src="/gallery/car-3.png" className={imageStyles}/>
+                    <img key="car1" src="/gallery/car-1.png" alt="toyota landcruiser SUV with rear bumper dent and paintless dent repair" className={imageStyles}/>
+                    <img key="car2" src="/gallery/car-2.png" alt="green classic porsche car with front fender dent and paintless dent repair" className={imageStyles}/>
+                    <img key="car3" src="/gallery/car-3.png" alt="black volkswagen polo with front fender dent and paintless dent repair" className={imageStyles}/>
                 </motion.div>
             </div>
             <div className="flex justify-center ">

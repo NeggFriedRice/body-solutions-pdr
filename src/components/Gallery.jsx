@@ -31,16 +31,16 @@ export default function Gallery() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.2, duration: 0.5, ease: 'easeOut', type: 'spring', stiffness: 100}}
                 exit={{ opacity: 0, y: 75, transition: { type: 'tween' } }}>
-                <img key="car5" src="/gallery/car5.png" className={imageStyles}/>
-                <img key="car6" loading="lazy" src="/gallery/car6.png" className={imageStyles}/>
-                <img key="car7" loading="lazy" src="/gallery/car7.png" className={imageStyles}/>
-                <img key="car8" loading="lazy" src="/gallery/car8.png" className={imageStyles}/>
-                <img key="car9" loading="lazy" src="/gallery/car9.png" className={imageStyles}/>
-                <img key="car10" loading="lazy" src="/gallery/car10.png" className={imageStyles}/>
-                <img key="car11" loading="lazy" src="/gallery/car11.png" className={imageStyles}/>
-                <img key="car12" loading="lazy" src="/gallery/car12.png" className={imageStyles}/>
-                <img key="car13" loading="lazy" src="/gallery/car13.png" className={imageStyles}/>
-                <img key="car14" loading="lazy" src="/gallery/car14.png" className={imageStyles}/>
+                <img key="car5" src="/gallery/car5.png" alt="red tesla model 3 car with a door dent and paintless dent repair" className={imageStyles}/>
+                <img key="car6" loading="lazy" src="/gallery/car6.png"  alt="gray audi car with front fender dent and paintless dent repair" className={imageStyles}/>
+                <img key="car7" loading="lazy" src="/gallery/car7.png" alt= "volkswagen polo car with front fender dent and paintless dent repair" className={imageStyles}/>
+                <img key="car8" loading="lazy" src="/gallery/car8.png" alt="nissan navara ute with a fender dent and paintless dent repair" className={imageStyles}/>
+                <img key="car9" loading="lazy" src="/gallery/car9.png"  alt="toyota CHR car with a door dent and paintless dent repair" className={imageStyles}/>
+                <img key="car10" loading="lazy" src="/gallery/car10.png" alt="mercedes SUV with a fender dent and paintless dent repair" className={imageStyles}/>
+                <img key="car11" loading="lazy" src="/gallery/car11.png" alt="mazda 2 car with a front bumper dent and paintless dent repair" className={imageStyles}/>
+                <img key="car12" loading="lazy" src="/gallery/car12.png" alt="classic jaguar car with a front fender dent and paintless dent repair" className={imageStyles}/>
+                <img key="car13" loading="lazy" src="/gallery/car13.png" alt="mitsubishi outlander SUV with rear fender dent and paintless dent repair" className={imageStyles}/>
+                <img key="car14" loading="lazy" src="/gallery/car14.png" alt="silver audi car with front fender dent and paintless dent repair" className={imageStyles}/>
                 </motion.div>
             </motion.div>
         </div>
