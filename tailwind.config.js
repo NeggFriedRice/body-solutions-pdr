@@ -7,6 +7,7 @@ export default {
   theme: {
     screens: {
       'xs': '429px',
+      'md': '675px',
       'lg': '1025px',
       'xxl': '2000px'
     },
@@ -17,8 +18,10 @@ export default {
         setOrangeLight: '#fcbe62',
         setBlack: '#242424',
         setBlackLight: '#424242',
-        setBlue: "#0e7490",
-        setBlueLight: "#0284c7"
+        setBlue: "#22639c",
+        setBlueLight: "#2ba3c4",
+        setGreen: '#209e35',
+        setGreenLight: '#34c24c'
       }
     },
   },
