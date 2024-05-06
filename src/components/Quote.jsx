@@ -1,5 +1,3 @@
-import React, { useRef } from 'react';
-
 export default function Quote() {
 
     const formRow = "flex justify-center"
