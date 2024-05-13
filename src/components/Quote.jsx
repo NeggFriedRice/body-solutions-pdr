@@ -31,7 +31,7 @@ export default function Quote() {
                         <div className="w-[250px] max-xs:mx-2">
                             <p>Attach a photo:</p>
                             <div>
-                               <input type="file" name="attachment" accept="image/png, image/jpeg" className="w-[250px]"/>
+                               <input type="file" name="attachment" accept="image/png, image/jpeg" className="w-[250px]" aria-label="Choose image button"/>
                             </div>
                         </div>
                         <div className={formRow}>

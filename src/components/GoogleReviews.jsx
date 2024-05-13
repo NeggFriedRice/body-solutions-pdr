@@ -21,7 +21,7 @@ export default function GoogleReviews() {
         <div className="mx-2 px-4 my-2 pb-8 w-[90vw] lg:w-[1020px] bg-amber-50 text-neutral-500 rounded-xl">
             <h1 className="text-[1.5rem] py-2">Our reviews</h1>
             <div className="h-[1px] w-[80%] bg-slate-200"></div>
-            <a href="https://www.google.com/search?q=Body+Solutions+Paintless+Dent+Repair&rlz=1C1VDKB_enAU1089AU1089&oq=body+so&gs_lcrp=EgZjaHJvbWUqDggAEEUYJxg7GIAEGIoFMg4IABBFGCcYOxiABBiKBTIGCAEQRRg5Mg0IAhAAGIMBGLEDGIAEMg0IAxAAGIMBGLEDGIAEMg0IBBAAGIMBGLEDGIAEMgcIBRAAGIAEMgYIBhBFGD0yBggHEEUYPNIBBzk0M2owajeoAgCwAgA&sourceid=chrome&ie=UTF-8#lrd=0x6ad639e6a2a34ed1:0x3a21893b3cbe90a,1,,,," target="_blank">
+            <a href="https://www.google.com/search?q=Body+Solutions+Paintless+Dent+Repair&rlz=1C1VDKB_enAU1089AU1089&oq=body+so&gs_lcrp=EgZjaHJvbWUqDggAEEUYJxg7GIAEGIoFMg4IABBFGCcYOxiABBiKBTIGCAEQRRg5Mg0IAhAAGIMBGLEDGIAEMg0IAxAAGIMBGLEDGIAEMg0IBBAAGIMBGLEDGIAEMgcIBRAAGIAEMgYIBhBFGD0yBggHEEUYPNIBBzk0M2owajeoAgCwAgA&sourceid=chrome&ie=UTF-8#lrd=0x6ad639e6a2a34ed1:0x3a21893b3cbe90a,1,,,," target="_blank" aria-label="Body Solutions PDR Google reviews">
             <img src="/google-review.png" alt="Google reviews logo" className="h-[35px] my-2"></img>
             </a>
             <Swiper
