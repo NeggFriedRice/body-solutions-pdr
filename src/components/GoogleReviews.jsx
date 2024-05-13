@@ -22,7 +22,7 @@ export default function GoogleReviews() {
             <h1 className="text-[1.5rem] py-2">Our reviews</h1>
             <div className="h-[1px] w-[80%] bg-slate-200"></div>
             <a href="https://www.google.com/search?q=Body+Solutions+Paintless+Dent+Repair&rlz=1C1VDKB_enAU1089AU1089&oq=body+so&gs_lcrp=EgZjaHJvbWUqDggAEEUYJxg7GIAEGIoFMg4IABBFGCcYOxiABBiKBTIGCAEQRRg5Mg0IAhAAGIMBGLEDGIAEMg0IAxAAGIMBGLEDGIAEMg0IBBAAGIMBGLEDGIAEMgcIBRAAGIAEMgYIBhBFGD0yBggHEEUYPNIBBzk0M2owajeoAgCwAgA&sourceid=chrome&ie=UTF-8#lrd=0x6ad639e6a2a34ed1:0x3a21893b3cbe90a,1,,,," target="_blank">
-            <img src="/google-review.png" className="h-[35px] my-2"></img>
+            <img src="/google-review.png" alt="Google reviews logo" className="h-[35px] my-2"></img>
             </a>
             <Swiper
             spaceBetween={10}
