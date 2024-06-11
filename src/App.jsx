@@ -3,6 +3,7 @@ import Heading from './components/Heading'
 import Home from "./pages/Home"
 import HowItWorks from './pages/HowItWorks'
 import Gallery from './components/Gallery'
+import Footer from './components/Footer'
 import ScrollToHashElement from './utils/ScrollToHashElement'
 import { Routes, Route, useLocation } from 'react-router-dom'
 import { AnimatePresence } from 'framer-motion'
@@ -23,6 +24,7 @@ function App() {
           <Route path="/gallery" element={<Gallery />} />
         </Routes>
       </AnimatePresence>
+      <Footer />
     </>
   )
 }
