@@ -40,7 +40,10 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  /* background-color: #242424; */
+  background: linear-gradient(300deg,#131527,#06291f,#071a30,#000306);
+  background-size: 240% 240%;
+  animation: gradient-animation 20s ease infinite;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -69,6 +72,24 @@ button {
 
 html {
   scroll-behavior: smooth
+}
+
+.gradient-background {
+  background: linear-gradient(300deg,#2b2929,#095b40,#0a133c);
+  background-size: 180% 180%;
+  animation: gradient-animation 27s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 @media (prefers-color-scheme: light) {
